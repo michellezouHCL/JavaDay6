@@ -2,17 +2,18 @@ package exercise3;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class ReverseElements {
 
-	public static ArrayList<Integer> reverseElements(ArrayList<Integer> integerList){
+	public static List<Integer> reverseElements(List<Integer> integerList){
 		Collections.reverse(integerList);
 		return integerList;
 		
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<Integer> integerList=new ArrayList<Integer>();
+		List<Integer> integerList=new ArrayList<Integer>();
 		integerList.add(1);
 		integerList.add(2);
 		integerList.add(3);
