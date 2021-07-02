@@ -1,0 +1,2 @@
+# JavaDay6
+Collections
